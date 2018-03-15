@@ -21,7 +21,8 @@ header {
 }
 
 main {
-
+  text-align: center;
+  padding-top : 40px;
 }
 
 section {
@@ -29,7 +30,14 @@ section {
 }
 
 footer {
-
+  background-color : #272727;
+  color : #fff;
+  text-align : center;
+  font-size : 12px;
+  padding : 40px;
+}
+footer p {
+  padding-bottom : 20px;
 }
 
 p {
@@ -73,7 +81,7 @@ p {
 }
 
 .main--title {
-
+  font-size : 21px;
 }
 
 .main--search {
@@ -88,4 +96,23 @@ p {
 
 }
 
-.end
+.end {
+  position : relative;
+  background-image : url('../asset/img/NY.jpg');
+  background-position : bottom;
+  background-repeat : no-repeat;
+  background-attachment: fixed;
+  background-size : cover;
+  height : auto;
+  min-height : 80vh;
+}
+
+.end--txt {
+  position : relative;
+  display: block;
+  background : grey;
+  font-size : 20px;
+  vertical-align : middle;
+  text-align: center;
+  top : 30vh;
+}
