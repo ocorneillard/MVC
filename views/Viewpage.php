@@ -27,8 +27,8 @@
   <div class="main--search">
     <p>FOUILLER LE STOCK</p>
     <form class="" action="index.html" method="post">
-      <input type="text" name="" value="">
-      <input type="submit" name="rechercher" value="">
+      <input type="text" name="" value="" placeholder="Exemple : table">
+      <input type="submit" name="rechercher" value="recherche">
     </form>
   </div>
   <section class="main--stock">
@@ -38,11 +38,18 @@
 
   <section class="main--categories">
     <p>FOUILLER LE STOCK</p>
+    <form class="" action="index.html" method="post">
+      <input type="text" name="" value="">
+      <input type="submit" value="recherche">
+    </form>
   </section>
 </main>
 <div class="end">
   <div class="end--txt">
     <p>"L'ennui naquit un jour de l'uniformité"</p>
+    <!-- C'EST PAS BIEN -->
+    <br>
+    <span>– Antoine Houdar de la Motte</span>
   </div>
 </div>
 
